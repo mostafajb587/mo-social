@@ -20,7 +20,7 @@ export default function NavBar() {
       {/* center */}
       <div className="hidden md:flex w-[50%] text-sm justify-between items-center">
         <div className="flex gap-5 text-gray-600">
-          <Link href={"/"} className="flex gap-2 ">
+          <Link href={"/"} className="flex gap-2 items-center ">
             <Image
               src="/icons8-home-50.png"
               alt="HomePage"
